@@ -1,0 +1,218 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Gestor de Objetivos */
+  .gestor-de-objetivos {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .gestor-de-objetivos h2 {
+    color: #FF6C00; /* Pantone 021 */
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .descripcion-general {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .descripcion-general textarea {
+    width: 80%;
+    height: 80px;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #FF6C00;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .descripcion-general button {
+    background-color: #FF6C00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .descripcion-general button:hover {
+    background-color: black;
+  }
+  
+  /* Integrador Form */
+  .integrador-form {
+    background-color: #FF6C00; /* Pantone 021 */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+  }
+  
+  .integrador-form h3 {
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .integrador-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .integrador-form label {
+    color: white;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .integrador-form textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  
+  .integrador-form button {
+    background-color: white;
+    color: #FF6C00;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .integrador-form button:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Objetivos Específicos Form */
+  .objetivos-especificos {
+    margin-bottom: 20px;
+  }
+  
+  .objetivos-especificos h3 {
+    color: #FF6C00;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  .objetivos-especificos ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .objetivos-especificos li {
+    margin-bottom: 10px;
+  }
+  
+  .objetivos-especificos input {
+    width: 70%;
+    padding: 8px;
+    font-size: 1em;
+    border: 2px solid #FF6C00;
+    border-radius: 5px;
+  }
+  
+  .objetivos-especificos button {
+    background-color: #FF6C00;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .objetivos-especificos button:hover {
+    background-color: black;
+  }
+  
+  /* Objetivos Generales Form */
+  .objetivos-generales-form {
+    margin-bottom: 20px;
+  }
+  
+  .objetivos-generales-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .objetivos-generales-form textarea {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #FF6C00;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .objetivos-generales-form button {
+    background-color: #FF6C00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .objetivos-generales-form button:hover {
+    background-color: black;
+  }
+  
+
+  /* src/assets/styles/ObjetivosEspecificosForm.css */
+
+.nuevo-objetivo-container {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.nuevo-objetivo-container input {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nuevo-objetivo-container input:focus {
+  background-color: #e8f0fe;
+  outline: none;
+}
+
+.nuevo-objetivo-container button {
+  background-color: black;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nuevo-objetivo-container button:hover {
+  background-color: black;
+}

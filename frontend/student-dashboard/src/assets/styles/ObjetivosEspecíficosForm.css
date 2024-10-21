@@ -1,0 +1,49 @@
+/* src/assets/styles/ObjetivosEspecificosForm.css */
+
+.especificos-form-container {
+    background: linear-gradient(145deg, #e0e7ff, #ffffff);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    border: 2px solid #021b79;
+    transition: transform 0.3s ease;
+  }
+  
+  .especificos-form-container:hover {
+    transform: scale(1.02);
+  }
+  
+  .especificos-form-title {
+    font-size: 20px;
+    color: #021b79;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .especificos-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #021b79;
+    border-radius: 5px;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+  }
+  
+  .especificos-input:focus {
+    background-color: #e8f0fe;
+  }
+  
+  .especificos-btn {
+    background-color: #021b79;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .especificos-btn:hover {
+    background-color: #0341ae;
+  }
+  
